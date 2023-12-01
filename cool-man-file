@@ -17,11 +17,8 @@ env - Print a list of environment variables
 setenv - Set a new environment variable
 unsetenv - Unsets an environment variable
 cd - Changes directories
-Ctrl-D - End of the file
-Ctrl-C - Does NOT exit the shell
-; - Command separator
-# - Comment indicator
-.SH EXAMPLE
+
+.SH EXAMPLES
 ./hsh followed by command and option
 $ ls -l
 
