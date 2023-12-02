@@ -1,2 +1,2 @@
 # COOL-TERMINAL
-This is a cool terminal fpor practices
+This is a cool terminal for practice
