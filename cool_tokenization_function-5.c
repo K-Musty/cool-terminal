@@ -23,13 +23,12 @@ cool_instruction *cool_get_term(char *entry)
  * cool_token - includes token(keyy)
  * @dry: tyerminal shell
  * @cool_node: node instruction
- * @start: starting point
+ * @srt: starting point
  * @keyy: token
- *
  */
-void cool_token(char *dry, command_t *cool_node, size_t start, char *keyy)
+void cool_token(char *dry, cool_instruction *cool_node, size_t srt, char *keyy)
 {
-	cool_node->instruction[start] = strdupl(keyy);
-	if (!cool_node->instruction[start])
+	cool_node->instruction[srt] = strdupl(keyy);
+	if (!cool_node->instruction[srt])
 		cool_error_handl(dry, 76);
 }
