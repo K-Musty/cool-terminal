@@ -11,7 +11,7 @@ cool_instruction *cool_get_term(char *entry)
 	cool_instruction *cool_node = NULL;
 
 	cool_node = malloc(sizeof(cool_instruction));
-	if (cool_node == NULL)
+	if (!cool_node)
 		cool_error_handl(entry, 76);
 	cool_node->instruction = malloc(sizeof(char *));
 	if (!cool_node->instruction)

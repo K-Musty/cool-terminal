@@ -21,7 +21,7 @@ int cool_fork(char *entry, cool_instruction *cool_node, char *_pth, char **env)
 	}
 	else
 	{
-		instruction = _which(cool_path, cool_node->instruction[0]);
+		instruction = cool_find(cool_path, cool_node->instruction[0]);
 	}
 	cool_pid_child = fork();
 	if (cool_pid_child == -1)
