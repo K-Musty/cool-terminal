@@ -10,3 +10,4 @@ int main()
 	printf("Line :%d\n", __LINE__ );
 	printf("ANSI :%d\n", __STDC__ );
 }
+
