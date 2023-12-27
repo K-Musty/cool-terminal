@@ -2,8 +2,5 @@
 
 void main ()
 {
-	int *name;
-	printf("what is your name?\n");
-	scanf("%ls", name);
-	printf("%ls", name);
+	printf("My name is abba\n");
 }
